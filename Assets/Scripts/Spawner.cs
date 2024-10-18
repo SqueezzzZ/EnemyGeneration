@@ -32,6 +32,6 @@ public class Spawner : MonoBehaviour
 
         direction.y = 0f;
 
-        return direction;
+        return direction.normalized;
     }
 }
